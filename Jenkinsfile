@@ -34,7 +34,7 @@ pipeline {
                     docker run -d \
                     --name flask-app \
                     --network app-network \
-                    -p 5000:5000 \
+                    -p 5000:5500 \
                     flask-app-image
                 '''
             }
